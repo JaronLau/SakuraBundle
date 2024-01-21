@@ -12,15 +12,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: auto;
 }
 .header .nav-icons{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     padding: 20px 20px 20px 20px;
+}
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
 }
 .header .logo{
     width: 200px;
     height: 50px;
+    align-items: center;
 }
 .header .icon{
     display: flex;
@@ -35,10 +45,9 @@
 }
 .header .login-button{
     display: flex;
-    justify-content: center;
+    justify-content:right;
     align-items: center;
-    padding: 20px 20px 20px 20px;
-
+    padding: 5px 5px 5px 5px;
 }
 .header .login-button img{
     width: 50px;
@@ -61,5 +70,37 @@
 .body-sec{
     display: flex;
     align-items: center;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+}
+
+.product-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product-body-border{
+    width: 700px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+.product-detail{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+}
+.product-detail-content{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+.product-detail-content img{
+    width: 200px;
+    height: 250px;
+}
+.product-detail-content h2{
+    padding: 0px 5px 0px 5px;
+
 }
