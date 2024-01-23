@@ -20,18 +20,21 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 10px 20px 10px 20px;
+}
+.header .nav-logo{
+    display: flex;
+    align-items: center;
+}
+.header .nav-logo img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
 }
 .header ul{
     display: flex;
     justify-content: center;
     align-items: center;
     list-style-type: none;
-}
-.header .logo{
-    width: 200px;
-    height: 50px;
-    align-items: center;
 }
 .header .icon{
     display: flex;
@@ -42,18 +45,19 @@
 .header .icon img{
     width: 30px;
     height: 30px;
-    padding: 5px 5px 5px 5px
+    margin: 5px 5px 5px 5px
 }
 .header .login-button{
     display: flex;
     justify-content:right;
     align-items: center;
-    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
 }
 .header .login-button img{
-    width: 50px;
-    height: 50px;
-    padding: 10px 10px 10px 10px;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 100px;
 }
 
 /*body css*/
@@ -74,6 +78,11 @@
     align-items: center;
     padding: 10px 10px 10px 10px;
     justify-content: space-between;
+}
+.body-sec button{
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
 }
 .body-sec img{
     width: 260px;
