@@ -119,6 +119,10 @@
     border-style: solid;
     background-color: lightgrey;
 }
+.product-search-filter{
+    display: flex;
+    justify-content: space-between;
+}
 .product-detail{
     width: 850px;
     display: flex;
