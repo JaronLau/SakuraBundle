@@ -56,15 +56,6 @@
                                 <option value="living">Living Flowers</option>
                                 <option value="fake">Imitation Flowers</option>
                             </select>
-                            <input type="checkbox" id="popular" name="popular" value="popular">
-                            <label for="popular">Popular</label>
-                            <input type="checkbox" id="new" name="new" value="new">
-                            <label for="new">New</label>
-                            <input type="checkbox" id="best" name="best" value="best">
-                            <label for="best">Bestsellers</label>
-                        </div>
-                        <div>
-                            <input type="text" id="product-search" name="product-search" value="Search">
                         </div>
                     </form>
                 </div>
@@ -99,7 +90,15 @@
                     </div>
                 </div>
                 <div class="product-search">
-                    hello
+                    <form action="" class="product-search-filter">
+                        <div>
+                            <select id="product-type" name="type">
+                                <option value="flower">Flower</option>
+                                <option value="living">Living Flowers</option>
+                                <option value="fake">Imitation Flowers</option>
+                            </select>
+                        </div>
+                    </form>
                 </div>
                 <div class="product-detail"> <!--repeatable-->
                     <div class="product-detail-content">
