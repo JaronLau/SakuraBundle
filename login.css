@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  img {
+    object-fit: cover;
+  }
+
+.login-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.login-body-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    width: 700px;
+    padding: 30px 30px 30px 30px;
+}
+.login-body-content img{
+    width: 200px;
+    height: 100px;
+}
+.login-body-content form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.login-body-content input{
+    width: 100%;
+}
+

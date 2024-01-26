@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  img {
+    object-fit: cover;
+  }
+
+  /*header css*/
+
+/*body css*/
+.main-body{
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 10px 10px
+}
+.main-body-content{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 900px;
+    background-color: lightgrey;
+}
+.body-sec{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-between;
+}
+.body-sec button{
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+}
+.body-sec img{
+    width: 260px;
+    height: 300px;
+}
+.main-body-ongoing{
+    padding: 10px 10px 10px 10px;
+}
+.ongoing-events{
+    display: flex;
+    overflow: scroll;
+}
+.ongoing-events img{
+    width: 400px;
+    height: 250px;
+    padding: 10px 10px 10px 10px;   
+}
