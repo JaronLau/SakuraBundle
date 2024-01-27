@@ -11,16 +11,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 20px 20px 20px;
 }
 .profile-body-content{
-    width: 700px;
+    width: 1000px;
     border-style: solid;
     border-color: black;
     border-width: 2px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: center;  
+    align-content: center;
+    padding: 20px 20px 20px 20px;
 }
 .profile-image{
     display: flex;
@@ -46,6 +48,28 @@
     flex-direction: column;
     border-style: solid;
     border-width: 2px;
-    width: 650px;
+    width: 90%;
+    padding: 20px 20px 20px 20px;
 }
+.product-detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+}
+.product-detail-content{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+.product-detail-content img{
+    width: 200px;
+    height: 250px;
+}
+.product-detail-content h2{
+    padding: 0px 5px 0px 5px;
+
+}
+
 

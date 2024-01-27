@@ -48,14 +48,29 @@
             </div>
         </section>
         <section class="contact-body">
-            <div class="contact-body-border">
-                <div class="contact-detail"> <!--repeatable-->
-                    <h2>contact</h2>
-                    <div>
-                        <h2>hello</h2>
-                    </div>
+            <div class="container">
+                <div>
+                    Contact us
                 </div>
-            </div>
+                <div class="form" id="add-contact">
+                    <form id="add-contact-form">
+                    <div class="form-group">
+                        <label for="contact-name">Name</label>
+                        <input type="text" id="contact-name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-msg">Message</label>
+                        <textarea id="contact-msg" class="form-control" required></textarea>
+                    </div>
+            
+                    <input type="submit" value="Send" class="btn btn-primary" id="contact-submit">
+                  </form>
+                </div>
+              </div><!-- end add container -->
         </section>
     </body>
 </html>

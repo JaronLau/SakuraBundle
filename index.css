@@ -19,14 +19,15 @@
     border-width: 2px;
     border-color: black;
     border-style: solid;
-    width: 900px;
+    width: 90%;
     background-color: lightgrey;
 }
 .body-sec{
     display: flex;
     align-items: center;
-    padding: 10px 10px 10px 10px;
+    padding: 30px 15px 30px 15px;
     justify-content: space-between;
+    width: auto;
 }
 .body-sec button{
     width: 200px;
@@ -36,6 +37,7 @@
 .body-sec img{
     width: 260px;
     height: 300px;
+    margin: 20px 20px 20px 20px;
 }
 .main-body-ongoing{
     padding: 10px 10px 10px 10px;

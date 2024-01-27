@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 900px;
+    width: 90%;
     border-width: 2px;
     padding: 5px 5px 20px 5px;
     border-color: black;
@@ -28,12 +28,12 @@
     background-color: lightgrey;
 }
 .product-search{
-    width: 900px;
-    padding: 5px 25px 5px 25px;
+    width: 95%;
 }
 .product-search-filter{
     display: flex;
     justify-content: space-between;
+    padding: 10px 0px 10px 0px;
 }
 .filter-search{
     width: 300px;
@@ -42,7 +42,7 @@
     width: 100%;
 }
 .product-detail{
-    width: 850px;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     padding: 15px 15px 15px 15px;
