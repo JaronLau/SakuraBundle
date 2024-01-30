@@ -11,17 +11,28 @@
     border-width: 2px;
     border-color: black;
     padding: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+}
+.credit-card h2{
+    padding: 0px 10px 15px 10px;
 }
 .credit-layout{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
 }
 .product-info{
-    width: 25%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 5px 5px 5px 5px;
 }
 .product-info img{
     width: 150px;
@@ -37,4 +48,71 @@
 .item-desc h4{
     display: flex;
     line-height: 30px;
+}
+.payment-details{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+}
+.credit-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+.credit-options img{
+    width: 40px;
+    height: 25px;
+}
+.input-forms form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input-forms input{
+    width: 100%;
+    height: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 5px 5px 5px 5px;
+}
+.input-forms .expiry-cvc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.expiry-cvc .expiry{
+    width: 65%;
+}
+.expiry-cvc .cvc{
+    width: 30%;
+}
+.buy-declaration{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+.buy-declaration .declaration-text{
+    width: 40%;
+}
+.buy-declaration .buy-buttons{
+    width: 60%;
+}
+.buy-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.buy-declaration button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
 }
