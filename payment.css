@@ -1,0 +1,40 @@
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px 20px 10px;
+}
+.credit-card{
+    width: 70%;
+    border-style:solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 15px 15px 15px 15px;
+}
+.credit-layout{
+    display: flex;
+    justify-content: space-around;
+}
+.product-info{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product-info img{
+    width: 150px;
+    height: 150px;;
+}
+.item-desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+.item-desc h4{
+    display: flex;
+    line-height: 30px;
+}

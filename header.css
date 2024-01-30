@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    text-decoration: none;
   }
   img {
     object-fit: cover;
@@ -14,6 +15,7 @@
     align-items: center;
     width: auto;
     background-color: lightgrey;
+    height: 120px;
 }
 .header .nav-icons{
     display: flex;
@@ -52,6 +54,8 @@
     justify-content:right;
     align-items: center;
     margin: 5px 5px 5px 5px;
+    width: 200px;
+    height:100px;
 }
 .header .login-button img{
     width: 80px;

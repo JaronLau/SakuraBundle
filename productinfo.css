@@ -40,16 +40,40 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 300px;
+    height: 400px;
     padding: 0px 10px 0px 10px;
+    justify-content: space-between;
 }
 .buy-buttons{
     display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.buy-buttons button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
 }
 .name-of-product{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.icons{
+    display: flex;
+}
+.icons img{
+    width: 40px;
+    height: 40px;
+}
+.exit-x{
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
 }
 .reviews{
     border-width: 2px;
