@@ -52,11 +52,17 @@
     padding: 20px 20px 20px 20px;
 }
 .product-detail{
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     padding: 15px 15px 15px 15px;
     background-color: white;
+}
+.product-detail-information{
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+    margin: 10px 10px 10px 10px;
 }
 .product-detail-content{
     display: flex;
