@@ -22,39 +22,56 @@
 }
 .header .left-bar{
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 50%;
 }
 .header .nav-logo{
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     width: 400px;
+}
+.nav-logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
 }
 .header .nav-logo img{
     width: 100px;
     height: 100px;
     margin: 10px;
 }
-.header .nav-links{
+.nav-logo a h4{
+    width: 130px;
+}
+.header .header-navbar{
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 10px 10px 10px 10px;
+    padding: 5px;
 }
-.header .nav-links ul{
+.header-navbar ul{
     display: flex;
     justify-content: space-between;
     width: 100%;
     text-decoration: none;
     list-style-type: none;
 }
-.nav-links ul li{
+.header-navbar ul li{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.nav-links ul li img{
+.header-navbar ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+.header-navbar img{
     width: 30px;
     height: 30px;
     margin: 5px;
