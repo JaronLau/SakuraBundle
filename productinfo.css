@@ -32,6 +32,12 @@
     padding: 15px 15px 15px 15px;
     width: 95%;
 }
+.model-view a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .product-model img{
     width: 300px;
     height: 400px;
