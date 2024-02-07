@@ -8,11 +8,15 @@
     object-fit: cover;
   }
 
-  /*header css*/
+  html{
+    background-color: ffb7c5;
+  }
+    
+/*header css*/
   .header{
     width: 100%;
     height: 120px;
-    background-color: lightgrey;
+    background-color: white;
   }
 .header .nav-bar{
     display: flex;
