@@ -68,3 +68,24 @@
     padding: 0px 5px 0px 5px;
 
 }
+
+@media screen and (max-width: 1000px) {
+    .product-search-filter{
+        flex-direction: column;
+    }
+    .product-search-filter .checkbox{
+        flex-direction: column;
+    }
+    .product-detail-content{
+        flex-direction: column;
+        width: 80%;
+    }
+    .product-detail-content img{
+        width: 300px;
+        height: 350px;
+    }
+    .product-detail-content h2{
+        padding: 10px 5px 10px 5px;
+        width: 100%;
+    }
+}
