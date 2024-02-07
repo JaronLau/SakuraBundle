@@ -9,7 +9,7 @@
   }
 
   html{
-    background-color: ffb7c5;
+    background-color: #ffb7c1;
   }
     
 /*header css*/
@@ -17,6 +17,7 @@
     width: 100%;
     height: 120px;
     background-color: white;
+    
   }
 .header .nav-bar{
     display: flex;

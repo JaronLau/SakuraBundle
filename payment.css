@@ -1,20 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  img {
+    object-fit: cover;
+  }
+
+
 .card-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px 10px 20px 10px;
+    background-color: #ffb7c5;
 }
 .credit-card{
     width: 70%;
     border-style:solid;
     border-width: 2px;
+    border-radius: 60px;
     border-color: black;
     padding: 15px 15px 15px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgrey;
+    background-color: white;
 }
 .credit-card h2{
     padding: 0px 10px 15px 10px;
@@ -24,7 +36,7 @@
     justify-content: space-between;
     width: 90%;
     padding: 10px 10px 10px 10px;
-    background-color: white;
+    
 }
 .product-info{
     width: 35%;
