@@ -49,6 +49,7 @@
     display: flex;
     flex-direction: column;
     border-style: solid;
+    border-radius: 20px;
     border-width: 2px;
     width: 90%;
     padding: 20px 20px 20px 20px;
@@ -59,12 +60,16 @@
     justify-content: space-between;
     padding: 15px 15px 15px 15px;
     background-color: white;
+    line-height: 20px;
 }
 .product-detail-information{
     display: flex;
     flex-direction: column;
-    line-height: 15px;
     margin: 10px 10px 10px 10px;
+    line-height: 25px;
+}
+.ranking{
+    display: none;
 }
 .product-detail-content{
     display: flex;
@@ -97,6 +102,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .profile-image img{
+        margin: 10px 10px 10px 10px;
+    }
     .profile-content .signout-buttons{
         display: flex;
         flex-direction: row;
@@ -117,32 +125,55 @@
         width: 100%;
     }
     .bookmark-content{
-        display: flex;
+        width: 100%;
+    }
+    .product-detail{
+        width: 100%;
+    }
+    .product-detail-content{
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100%;
+        overflow: hidden;
     }
-    .product-detail{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+    .product-detail-content a{
+        width: 300px;
+        overflow: hidden;
     }
-    .product-detail-content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .product-detail-info{
         width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    .product-detail-info img{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        size: cover;
     }
     .product-detail-information{
-        display: flex;
-        flex-direction: column;
         width: 100%;
-        font-size: 20px;
+        align-items: left;
+        padding: 0px 20px;;
     }
     .product-detail-information h2{
-        font-size: 25px;
+        width: 200px;
+        align-items: center;
+        height: 50px;
+        text-overflow: unset;
+    }
+    .product-detail-information h3{
+        display: none;
+    }
+    .ranking{
+        display: none;
+        width: 0px;
+    }
+    .product-detail-content h2{
+        width: 100%;
+        line-height: 30px;
+
     }
     .rank{
         display: none;
