@@ -48,10 +48,12 @@
 }
 .main-body-ongoing{
     padding: 10px 10px 10px 10px;
+    width: 100%;
 }
 .ongoing-events{
     display: flex;
     overflow: scroll;
+    width: 100%;
 }
 .ongoing-events img{
     width: 400px;
