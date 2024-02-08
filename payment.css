@@ -143,3 +143,34 @@
     height: 60px;
     border-radius: 40px;
 }
+
+@media screen and (max-width: 1008px){
+    .credit-card{
+        width: 90%;
+    }
+    .credit-layout{
+        flex-direction: column;
+        align-items: center;
+    }
+    .payment-details{
+        width: 100%;
+        flex-direction: column;
+    }
+    .credit-options{
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .buy-declaration{
+        flex-direction: column;
+        align-items: center;
+    }
+    .declaration-text{
+        display: none;
+    }
+    .buy-buttons{
+        width: 100%;
+    }
+    .buy-buttons button{
+        width: 150px;
+    }
+}
