@@ -14,7 +14,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: #ffb7c1;
+    background-color: white;
 }
 .login-body-content{
     display: flex;
@@ -53,5 +53,13 @@
     width: 100%;
     height: 30px;
     padding: 5px;
+}
+button{
+    width: 100%;
+    height: 100%;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    border-radius: 20px;
+    border-width: 1px;
 }
 
