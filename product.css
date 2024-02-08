@@ -55,6 +55,9 @@
     line-height: 15px;
     margin: 10px 10px 10px 10px;
 }
+.product-detail-information h3{
+    line-height: 25px;
+}
 .product-detail-content{
     display: flex;
     flex-direction: row;

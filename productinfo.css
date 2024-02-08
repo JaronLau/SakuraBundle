@@ -82,13 +82,25 @@
     font-weight: bold;
     text-decoration: none;
 }
+.information{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px 15px 20px;
+    width: 100%;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px 15px 15px;
+    width: 100%;
+}
 .reviews{
     border-width: 2px;
     padding: 15px 15px 15px 15px;
     width: 95%;
 }
-.reviews div{
-    padding: 15px 15px 15px 15px;    
+.reviews .reviewer{
+    padding: 10px 0px;
     background-color: white;
 }
 
