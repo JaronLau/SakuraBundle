@@ -4,6 +4,15 @@
     box-sizing:border-box;
     text-decoration: none;
   }
+  .homeicon:hover{
+    content: url("images/Home icon pink.png");
+}
+.contacticon:hover{
+    content: url("images/Contact us icon pink.png");
+}
+.carticon:hover{
+    content: url("images/Cart icon pink.png");
+}
   img {
     object-fit: cover;
   }
