@@ -58,9 +58,27 @@
 
 # Website functions
     index.html (Home page, need to sign in)
-        - 
+        - just a homepage for those who have not signed in
+        - have to sign in to access game contents
     Login page
-        -
+        -  generic login page that has no linkage to api
+    product page
+        - list of all products that link each product to its own html pages for viewing
+    cart page
+        - shows all items that you have purchased or put into cart
+        - doesnt work as of now as there is no linking to javascript for functionality
+    contact page
+        - meant to be a page where user types in his information and mesage so that we as the company can send feedback back to the user through his email
+        - no functionality as there is no api linkage at all
+    profile page
+        - place where a user can see what he likes, bookamark, edit profile info, image and credit card linking options
+        - user can see the coupons he has redeemed and use them as he see fit
+        - page currently has no functionality other than a show of what can be put there and how the page works
+    product information pages
+        - a page where user can see the product, and see the details on the product like materials, care requirements, and to buy the product itself.
+    payment page
+        - user enters credit card details and makes purchase
+        - no api linkage so the page doesnt work as of now
 
 # Catering to other platforms and devices
     Compatible on following browsers
