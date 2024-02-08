@@ -59,6 +59,9 @@
     flex-direction: row;
     width: 70%;
 }
+.product-detail-content h3{
+    line-height: 25px;
+}
 .product-detail-content img{
     width: 200px;
     height: 250px;
