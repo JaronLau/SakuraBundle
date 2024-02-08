@@ -95,6 +95,7 @@
 @media screen and (max-width: 1000px) {
     .product-body-border{
         padding: 25px 0px;
+        width: 100%;
     }
     .product-search{
         justify-content: center;
@@ -119,23 +120,25 @@
         width: 100%;
         overflow: hidden;
     }
+    .product-detail-content a{
+        width: 300px;
+        overflow: hidden;
+    }
     .product-detail-info{
         width: 70%;
         height: auto;
         align-items: center;
     }
     .product-detail-info img{
-        width: auto;
-        height: 200px;
+        width: 300px;
+        height: 350px;
         align-items: center;
         size: cover;
     }
     .product-detail-information{
         width: 100%;
-        align-items: center;
-    }
-    .product-detail-information a{
-        padding: 5px 5px 5px 5px;
+        align-items: left;
+        padding: 0px 20px;;
     }
     .product-detail-information h2{
         width: 200px;

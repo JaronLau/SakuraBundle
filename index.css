@@ -74,6 +74,9 @@
         flex-direction: column;
         flex-direction: column-reverse;
     }
+    .main-body-content{
+        width: 100%;
+    }
     .main-body-ongoing{
         width: 100%;
     }

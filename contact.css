@@ -60,3 +60,22 @@
 .btn{
   width: 50%;
 }
+@media screen and (max-width: 1008px){
+  .container{
+    width: 100%;
+    padding: 15px 0px
+  }
+  .form{
+    width: 100%;
+  }
+  .form-group input{
+    width: 100%;
+  }
+  .form-group textarea{
+    width: 100%;
+  }
+  .btn{
+    width: 100%;
+  }
+  
+}

@@ -51,6 +51,10 @@
     padding: 0px 10px 0px 10px;
     justify-content: space-between;
 }
+.name-of-product h3{
+    font-size: 40px;
+
+}
 .buy-buttons{
     display: flex;
     justify-content: center;
@@ -105,5 +109,66 @@
 }
 
 @media screen and (max-width: 1000px) {
-    
+    .product-view-border{
+        padding: 15px 0px;
+        width: 100%;
+    }
+    .product-model{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .product-model .model-view{
+        width: 200px;
+        height: 250px;
+    }
+    .model-view img{
+        border-radius: 20px;
+        width: 200px;
+        height: auto;
+    }
+    .model-desc{
+        width: 100%;
+        height: auto;
+    }
+    .model-desc .name-of-product{
+        flex-direction: row;
+        align-items: center;
+        font-size: 13px;
+    }
+    .name-of-product .icons{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        height: 250px;
+        width: 25px;
+    }
+    .name-of-product .icons a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .name-of-product h3{
+        font-size: 30px;
+    }
+    .buy-buttons{
+        margin: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .buy-buttons button{
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        
+    }
+    .information h2{
+        font-size: 20px;
+    }
+    .information h3{
+        font-size: 15px;
+    }
+
 }
